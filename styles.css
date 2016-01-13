@@ -17,23 +17,21 @@ img {
 }
 
 h3 {
-  border-bottom: solid 4px gray;
+  border-bottom: solid 4px grey;
   padding-bottom: 8px;
 }
 .content-container {
-  ...
-  font-size:0;
+    max-width: calc(50% - 32px);
+    height: auto;
+    border-radius: 10px;
+    border-top: 40px solid blue;
+    background: white;
+    display: block;
 }
+
 .inner-square {
-  background: #cccccc;
-  width: calc(50% - 8px);
-  height: calc(50% - 8px);
-  margin: 5px;
-  display:inline-block;
-}
-.inner-square:nth-child(even) {
-  margin-left:0;
-}
-.inner-square:nth-child(n+2) {
-  margin-top:0;
+    background: #ffffff;
+    width: calc(50% - 8px);
+    height: calc(50% - 8px);
+    margin: 10px 0;
 }
